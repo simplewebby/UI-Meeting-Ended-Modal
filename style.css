@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(181, 178, 233) 0%, rgb(164, 140, 186) 0%, rgb(203, 187, 218) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 460px;
+    height: auto;
+    margin: auto;
+    background-color: #1c1c32;
+    color: #eee;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.container .fa-times {
+    position: relative;
+    top: 10px;
+    left: 210px;
+    color: #777;
+    font-weight: 100;
+}
+.intro {
+    padding: 10px;
+}
+.intro p {
+    color: #ddd;
+}
+.box {
+    background-color: rgb(48, 47, 69);
+    border-radius: 7px;
+    padding: 10px 20px;
+    width: 350px;
+}
+.box p{
+    font-size: 14px;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+    
+}
+.fa-star-o {
+    font-size: 25px;
+    color: khaki;
+}
+.fa-star {
+    font-size: 25px;  
+    color: #ffe901;
+    
+}
+
+.feedback {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px 0px;
+}
+
+.feedback span{
+    font-size: 12px;
+    color: #777;
+    font-weight: 200;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.button button {
+    padding: 15px 55px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #552c96;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    color: #ddd;
+}
+.button span {
+    text-align: center;
+    font-size: 13px;
+    color: #777;
+    font-weight: 200;
+    padding-bottom: 25px;
+}
